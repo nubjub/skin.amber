@@ -57,8 +57,7 @@
         </control>
         <control type="group" description="List">
           <posx>0</posx>
-          <control type="fixedlist" id="450" description="No Thumbs">
-            <focusposition>6</focusposition>
+          <control type="list" id="450" description="No Thumbs">
             <viewtype label="List">list</viewtype>
             <posx>711</posx>
             <posy>156</posy>

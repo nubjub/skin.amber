@@ -12,6 +12,6 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <description>No bloatware, just your media with easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skin.</description>
+    <description>Based on the light weight and beautiful Amber skin by pecinko.[CR]Customizations primarily for display on 1920x1080 and 1600x1200 simultaneously.</description>
   </extension>
 </addon>
