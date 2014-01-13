@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <includes>
   <include name="RecentlyAdded_Header">
     <animation effect="slide" start="0,0" end="0,-162" time="0" condition="!Skin.HasSetting(plexbmc) + [Control.IsVisible(312) | Control.IsVisible(413) | Control.IsVisible(513) | Control.IsVisible(515)]">Conditional</animation>
@@ -63,7 +64,7 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-		<bordersize>-13</bordersize>
+		<bordersize>-12</bordersize>
         <include>PosterThumbBG</include>
       </control>
       <control type="image">
@@ -76,21 +77,21 @@
     </itemlayout>
     <focusedlayout height="345" width="228">
       <control type="image">
-        <visible>![Control.HasFocus(311) | Control.HasFocus(313) | Control.HasFocus(514)]</visible>
+        <visible>![Control.HasFocus(311) | Control.HasFocus(514)]</visible>
         <posx>21</posx>
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-		<bordersize>-13</bordersize>
+		<bordersize>-12</bordersize>
         <include>PosterThumbBG</include>
       </control>
       <control type="image">
-        <visible>Control.HasFocus(311) | Control.HasFocus(313) | Control.HasFocus(514)</visible>
+        <visible>Control.HasFocus(311) | Control.HasFocus(514)</visible>
         <posx>21</posx>
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-		<bordersize>-13</bordersize>
+		<bordersize>-12</bordersize>
         <include>PosterThumbFO</include>
       </control>
       <control type="image">
@@ -120,7 +121,7 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-		<bordersize>-13</bordersize>
+		<bordersize>-12</bordersize>
         <include>PosterThumbBG</include>
       </control>
       <control type="image">
@@ -130,6 +131,14 @@
         <height>285</height>
         <include>PosterThumb</include>
       </control>
+	  <control type="image">
+		<visible>Control.IsVisible(312)</visible>
+		<posx>175</posx>
+		<posy>273</posy>
+		<width>33</width>
+		<height>33</height>
+		<texture>OverlayInProgress.png</texture>
+	  </control>
     </itemlayout>
     <focusedlayout height="345" width="228">
       <control type="image">
@@ -138,7 +147,7 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-		<bordersize>-13</bordersize>
+		<bordersize>-12</bordersize>
         <include>PosterThumbBG</include>
       </control>
       <control type="image">
@@ -147,7 +156,7 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-		<bordersize>-13</bordersize>
+		<bordersize>-12</bordersize>
         <include>PosterThumbFO</include>
       </control>
       <control type="image">
@@ -157,6 +166,14 @@
         <height>285</height>
         <include>PosterThumb</include>
       </control>
+	  <control type="image">
+		<visible>Control.IsVisible(312)</visible>
+		<posx>175</posx>
+		<posy>273</posy>
+		<width>33</width>
+		<height>33</height>
+		<texture>OverlayInProgress.png</texture>
+	  </control>
     </focusedlayout>
   </include>
   <include name="RecentlyAdded_Episodes">
@@ -177,6 +194,7 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
+		<bordersize>-12</bordersize>
         <include>PosterThumbBG</include>
       </control>
       <control type="image">
@@ -212,6 +230,7 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
+		<bordersize>-12</bordersize>
         <include>PosterThumbBG</include>
       </control>
       <control type="image">
@@ -220,6 +239,7 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
+		<bordersize>-12</bordersize>
         <include>PosterThumbFO</include>
       </control>
       <control type="image">
@@ -267,7 +287,8 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-        <include>PosterThumbBG</include>
+        <bordersize>-12</bordersize>
+		<include>PosterThumbBG</include>
       </control>
       <control type="image">
         <posx>21</posx>
@@ -302,7 +323,8 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-        <include>PosterThumbBG</include>
+        <bordersize>-12</bordersize>
+		<include>PosterThumbBG</include>
       </control>
       <control type="image">
         <visible>Control.HasFocus(413)</visible>
@@ -310,7 +332,8 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-        <include>PosterThumbFO</include>
+        <bordersize>-12</bordersize>
+		<include>PosterThumbFO</include>
       </control>
       <control type="image">
         <posx>21</posx>
@@ -356,7 +379,7 @@
         <posy>21</posy>
         <width>198</width>
         <height>198</height>
-        <bordersize>-12</bordersize>
+        <bordersize>-10</bordersize>
         <include>SquareThumbBG</include>
       </control>
       <control type="image">
@@ -402,7 +425,7 @@
         <posy>21</posy>
         <width>198</width>
         <height>198</height>
-        <bordersize>-12</bordersize>
+        <bordersize>-10</bordersize>
         <include>SquareThumbBG</include>
       </control>
       <control type="image">
@@ -411,7 +434,7 @@
         <posy>21</posy>
         <width>198</width>
         <height>198</height>
-        <bordersize>-12</bordersize>
+        <bordersize>-10</bordersize>
         <include>SquareThumbFO</include>
       </control>
       <control type="image">
@@ -469,7 +492,7 @@
         <posy>21</posy>
         <width>198</width>
         <height>198</height>
-        <bordersize>-12</bordersize>
+        <bordersize>-10</bordersize>
         <include>SquareThumbBG</include>
       </control>
       <control type="image">
@@ -515,7 +538,7 @@
         <posy>21</posy>
         <width>198</width>
         <height>198</height>
-        <bordersize>-12</bordersize>
+        <bordersize>-10</bordersize>
         <include>SquareThumbBG</include>
       </control>
       <control type="image">
@@ -524,7 +547,7 @@
         <posy>21</posy>
         <width>198</width>
         <height>198</height>
-        <bordersize>-12</bordersize>
+        <bordersize>-10</bordersize>
         <include>SquareThumbFO</include>
       </control>
       <control type="image">
@@ -580,7 +603,7 @@
         <posy>21</posy>
         <width>198</width>
         <height>198</height>
-        <bordersize>-12</bordersize>
+        <bordersize>-10</bordersize>
         <include>SquareThumbBG</include>
       </control>
       <control type="image">
@@ -611,21 +634,21 @@
     </itemlayout>
     <focusedlayout height="345" width="228">
       <control type="image">
-        <visible>![Control.HasFocus(111) | Control.HasFocus(211) | Control.HasFocus(212) | Control.HasFocus(900)]</visible>
+        <visible>![Control.HasFocus(111) | Control.HasFocus(211) | Control.HasFocus(212) | Control.HasFocus(900) | Control.HasFocus(901)]</visible>
         <posx>21</posx>
         <posy>21</posy>
         <width>198</width>
         <height>198</height>
-        <bordersize>-12</bordersize>
+        <bordersize>-10</bordersize>
         <include>SquareThumbBG</include>
       </control>
       <control type="image">
-        <visible>Control.HasFocus(111) | Control.HasFocus(211) | Control.HasFocus(212) | Control.HasFocus(900)</visible>
+        <visible>Control.HasFocus(111) | Control.HasFocus(211) | Control.HasFocus(212) | Control.HasFocus(900) | Control.HasFocus(901)</visible>
         <posx>21</posx>
         <posy>21</posy>
         <width>198</width>
         <height>198</height>
-        <bordersize>-12</bordersize>
+        <bordersize>-10</bordersize>
         <include>SquareThumbFO</include>
       </control>
       <control type="image">
@@ -675,7 +698,7 @@
         <texture border="0,40,0,40">home/OverlayRA2T.png</texture>
       </control>
 	  <control type="image" description="RA BG Plexbmc only">
-        <visible>Skin.HasSetting(plexbmc) + [Control.IsVisible(111) | Control.IsVisible(211) | Control.IsVisible(212) | [IntegerGreaterThan(Container(311).NumItems,0) + !IntegerGreaterThan(Container(312).NumItems,0)] | [!IntegerGreaterThan(Container(311).NumItems,0) + IntegerGreaterThan(Container(312).NumItems,0)] | [IntegerGreaterThan(Container(411).NumItems,0) + !IntegerGreaterThan(Container(413).NumItems,0)] | [!IntegerGreaterThan(Container(411).NumItems,0) + IntegerGreaterThan(Container(413).NumItems,0)] | Control.IsVisible(511) | Control.IsVisible(900)]</visible>
+        <visible>Skin.HasSetting(plexbmc) + [Control.IsVisible(111) | Control.IsVisible(211) | Control.IsVisible(212) | [IntegerGreaterThan(Container(311).NumItems,0) + !IntegerGreaterThan(Container(312).NumItems,0)] | [!IntegerGreaterThan(Container(311).NumItems,0) + IntegerGreaterThan(Container(312).NumItems,0)] | [IntegerGreaterThan(Container(411).NumItems,0) + !IntegerGreaterThan(Container(413).NumItems,0)] | [!IntegerGreaterThan(Container(411).NumItems,0) + IntegerGreaterThan(Container(413).NumItems,0)] | Control.IsVisible(511) | Control.IsVisible(900) | Control.IsVisible(901)]</visible>
         <posx>530</posx>
         <posy>345</posy>
         <width>1390</width>
@@ -811,6 +834,8 @@
     <control type="image" description="Sub Left Blade">
       <include>VisibleFadeEffect</include>
       <animation effect="slide" start="0,0" end="389,0" time="250" delay="0" reversible="true" condition="Control.HasFocus(9001)">conditional</animation>
+	  <animation effect="slide" start="0,0" end="477,0" time="250" delay="0" reversible="true" condition="Skin.HasSetting(plexbmc) + Control.HasFocus(311) + !IsEmpty(Container(311).ListItem.Property(Plot))">conditional</animation>
+	  <animation effect="fade" start="100" end="85" time="0" reversible="true" condition="Skin.HasSetting(plexbmc) + Control.HasFocus(311) + !IsEmpty(Container(311).ListItem.Property(Plot))">conditional</animation>
       <posx>-518</posx>
       <posy>0</posy>
       <width>540</width>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window type="window">
   <defaultcontrol always="true">450</defaultcontrol>
   <controls>
@@ -110,7 +111,7 @@
         <posy>1040</posy>
         <width>1920</width>
         <height>40</height>
-        <texture>img/Gradient.png</texture>
+        <texture>img/GradientNew.png</texture>
         <aspectratio>stretch</aspectratio>
       </control>
       <control type="scrollbar" id="60">
@@ -138,7 +139,7 @@
       <posy>1040</posy>
       <width>1920</width>
       <height>40</height>
-      <texture>img/Gradient.png</texture>
+      <texture>img/GradientNew.png</texture>
       <aspectratio>stretch</aspectratio>
     </control>
   </controls>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window type="window">
   <defaultcontrol>3</defaultcontrol>
   <coordinates>
@@ -86,7 +87,7 @@
               <height>60</height>
               <align>right</align>
               <textcolor>Grey</textcolor>
-              <font>Label2</font>
+              <font>ListDetails</font>
               <scroll>false</scroll>
               <info>ListItem.Label2</info>
             </control>
@@ -117,7 +118,7 @@
               <align>right</align>
               <textcolor>Grey2</textcolor>
               <shadowcolor>ShadowDark</shadowcolor>
-              <font>Label2</font>
+              <font>ListDetails</font>
               <info>ListItem.Label2</info>
             </control>
           </focusedlayout>

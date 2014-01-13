@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window>
   <defaultcontrol always="true">20</defaultcontrol>
   <controls>
@@ -70,7 +71,7 @@
             <font>Details</font>
             <width>500</width>
             <scroll>false</scroll>
-            <textcolor>Label2</textcolor>
+            <textcolor>ListDetails</textcolor>
             <label>$INFO[ListItem.Property(ClientName)]</label>
           </control>
         </itemlayout>
