@@ -51,7 +51,8 @@
       </control>
       <control type="group" description="Group 6 Thumbs">
         <visible>!Control.IsVisible(3)</visible>
-        <control type="list" id="6">
+        <control type="fixedlist" id="6">
+          <focusposition>2</focusposition>
           <posx>256</posx>
           <posy>60</posy>
           <width>1010</width>
@@ -153,8 +154,9 @@
         </control>
       </control>
       <control type="group" description="Group 3 Plain list">
-        <control type="list" id="3">
+        <control type="fixedlist" id="3">
           <animation effect="slide" start="0,0" end="158,0" time="0" reversible="true" condition="Control.IsVisible(5)">Conditional</animation>
+          <focusposition>2</focusposition>
           <posx>100</posx>
           <posy>60</posy>
           <width>810</width>

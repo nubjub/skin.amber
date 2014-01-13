@@ -70,7 +70,7 @@
           <font>InfoTitle</font>
           <textcolor>White2</textcolor>
           <align>left</align>
-          <autoscroll time="6000" delay="8000" repeat="8000">true</autoscroll>
+          <autoscroll delay="15000" time="5000" repeat="20000">true</autoscroll>
           <info>ListItem.Label</info>
         </control>
         <control type="label" description="Path Label">
@@ -334,7 +334,7 @@
           <height>388</height>
           <align>justify</align>
           <font>InfoPlot</font>
-          <autoscroll delay="15000" time="5000" repeat="10000">true</autoscroll>
+          <autoscroll delay="15000" time="5000" repeat="20000">true</autoscroll>
           <label>$VAR[Plots]</label>
         </control>
         <control type="image" description="Line Split">

@@ -77,6 +77,7 @@
     <value condition="Control.IsVisible(16) | Control.IsVisible(15) | Control.IsVisible(10)">$INFO[Control.GetLabel(31)]</value>
     <value>$INFO[Container.FolderName]</value>
   </variable>
+
   <variable name="Details" description="Shown Above Plots and descriptions">
     <value condition="!Container.content(Addons) + Window.IsActive(MyPics.xml)">$INFO[ListItem.Date,, • ]$INFO[ListItem.Size]</value>
     <value condition="Container.content(Albums)">$INFO[ListItem.Artist]</value>
@@ -86,11 +87,12 @@
     <value condition="Container.Content(Artists) + !IsEmpty(ListItem.Property(artist_genre))">$INFO[ListItem.Property(artist_genre),[COLOR=Grey]$LOCALIZE[515]: [/COLOR]]</value>
     <value condition="Container.Content(Artists) + !IsEmpty(ListItem.Property(artist_style))">$INFO[ListItem.Property(artist_style),[COLOR=Grey]$LOCALIZE[176]: [/COLOR]]</value>
     <value condition="Container.Content(MusicVideos)">$INFO[ListItem.Year,, • ]$INFO[ListItem.Duration,, $LOCALIZE[31297]]</value>
-    <value condition="Container.Content(Movies)">$INFO[ListItem.Year,, • ]$INFO[ListItem.Duration,, $LOCALIZE[31297]]$INFO[ListItem.Rating, • ]$INFO[ListItem.MPAA, • ]</value>
+    <value condition="Container.Content(Movies)">$INFO[ListItem.Rating,, • ]$INFO[ListItem.VideoResolution,, • ]$INFO[ListItem.AudioChannels,, : ]$INFO[ListItem.AudioCodec,, • ]$INFO[ListItem.Year,, • ]$INFO[ListItem.Duration,, $LOCALIZE[31297]]</value>
     <value condition="IntegerGreaterThan(ListItem.Property(UnWatchedEpisodes),0) + [Container.Content(Seasons) | Container.Content(TVShows)]">$INFO[ListItem.Year,, • ]$INFO[ListItem.MPAA,, • ]$INFO[ListItem.Property(TotalEpisodes), $LOCALIZE[20453] ] [COLOR=Orange]$INFO[ListItem.Property(UnWatchedEpisodes), (,) ][/COLOR]</value>
     <value condition="!IntegerGreaterThan(ListItem.Property(UnWatchedEpisodes),0) + [Container.Content(Seasons) | Container.Content(TVShows)]">$INFO[ListItem.Year,, • ]$INFO[ListItem.MPAA,, • ]$INFO[ListItem.Property(TotalEpisodes),, $LOCALIZE[20453]]</value>
     <value>$INFO[ListItem.Label2]</value>
   </variable>
+
   <variable name="Fanart_Details" description="Shown Above Plots and descriptions">
     <value condition="!Container.content(Addons) + Window.IsActive(MyPics.xml)">$INFO[ListItem.Date,, • ]$INFO[ListItem.Size]</value>
     <value condition="Container.content(Albums)">$INFO[ListItem.Artist]</value>

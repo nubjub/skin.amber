@@ -9,7 +9,7 @@
   <controls>
     <include condition="Skin.HasSetting(Home_DefaultBG)">Default_Art</include>
     <control type="multiimage">
-      <visible>![Player.HasVideo + Skin.HasSetting(Show_Player)] + !Skin.HasSetting(Home_DefaultBG)</visible>
+      <visible>![Player.HasVideo + Skin.HasSetting(Show_Player_Home)] + !Skin.HasSetting(Home_DefaultBG)</visible>
       <include>Dimensions_Fullscreen</include>
       <timeperimage>12000</timeperimage>
       <fadetime>400</fadetime>
@@ -18,14 +18,14 @@
       <aspectratio aligny="top">scale</aspectratio>
     </control>
     <control type="visualisation">
-      <visible>Player.HasAudio + Skin.HasSetting(Show_Player)</visible>
+      <visible>Player.HasAudio + Skin.HasSetting(Show_Player_Home)</visible>
       <posx>0</posx>
       <posy>0</posy>
       <width>1920</width>
       <height>1080</height>
     </control>
     <control type="videowindow">
-      <visible>Player.HasVideo + Skin.HasSetting(Show_Player)</visible>
+      <visible>Player.HasVideo + Skin.HasSetting(Show_Player_Home)</visible>
       <posx>0</posx>
       <posy>0</posy>
       <width>1920</width>

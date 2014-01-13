@@ -2,15 +2,16 @@
   <include name="View_54_LowList">
     <control type="group" description="List">
       <visible>Control.IsVisible(54)</visible>
-      <control type="list" id="54">
+      <control type="fixedlist" id="54">
         <posx>710</posx>
-        <posy>705</posy>
+        <posy>725</posy>
         <width>1210</width>
-        <height>359</height>
+        <height>351</height>
         <onleft>9000</onleft>
         <onright>60</onright>
         <onup>54</onup>
         <ondown>54</ondown>
+        <focusposition>2</focusposition>
         <pagecontrol>60</pagecontrol>
         <viewtype label="Low List">Low List</viewtype>
         <preloaditems>4</preloaditems>
@@ -20,8 +21,8 @@
         <animation effect="slide" start="0,0" end="-8,0" time="150">Focus</animation>
         <animation effect="slide" start="-8,0" end="0,0" time="300">UnFocus</animation>
         <posx>20r</posx>
-        <posy>705</posy>
-        <height>359</height>
+        <posy>725</posy>
+        <height>351</height>
         <width>36</width>
         <texturesliderbackground>-</texturesliderbackground>
         <texturesliderbar>-</texturesliderbar>

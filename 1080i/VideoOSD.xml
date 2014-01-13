@@ -73,8 +73,24 @@
           <ondown>702</ondown>
           <onclick>PlayerControl(Rewind)</onclick>
         </control>
-        <control type="togglebutton" id="602">
+        <control type="button" id="602">
           <posx>151</posx>
+          <posy>0</posy>
+          <width>90</width>
+          <height>98</height>
+          <label>$LOCALIZE[31352]</label>
+          <font>-</font>
+          <texturefocus>VideoOSD/OSDStopFO.png</texturefocus>
+          <texturenofocus>VideoOSD/OSDStopNF.png</texturenofocus>
+          <onleft>601</onleft>
+          <onright>603</onright>
+          <onup>Close</onup>
+          <onup>XBMC.ActivateWindow(142)</onup>
+          <ondown>702</ondown>
+          <onclick>PlayerControl(Stop)</onclick>
+        </control>
+        <control type="togglebutton" id="603">
+          <posx>225</posx>
           <posy>0</posy>
           <width>90</width>
           <height>98</height>
@@ -86,28 +102,12 @@
           <usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
           <alttexturefocus>VideoOSD/OSDPlayFO.png</alttexturefocus>
           <alttexturenofocus>VideoOSD/OSDPlayNF.png</alttexturenofocus>
-          <onleft>601</onleft>
-          <onright>603</onright>
+          <onleft>602</onleft>
+          <onright>604</onright>
           <ondown>702</ondown>
           <onup>Close</onup>
           <onup>XBMC.ActivateWindow(142)</onup>
           <onclick>PlayerControl(Play)</onclick>
-        </control>
-        <control type="button" id="603">
-          <posx>225</posx>
-          <posy>0</posy>
-          <width>90</width>
-          <height>98</height>
-          <label>$LOCALIZE[31352]</label>
-          <font>-</font>
-          <texturefocus>VideoOSD/OSDStopFO.png</texturefocus>
-          <texturenofocus>VideoOSD/OSDStopNF.png</texturenofocus>
-          <onleft>602</onleft>
-          <onright>604</onright>
-          <onup>Close</onup>
-          <onup>XBMC.ActivateWindow(142)</onup>
-          <ondown>702</ondown>
-          <onclick>PlayerControl(Stop)</onclick>
         </control>
         <control type="button" id="604">
           <posx>305</posx>
@@ -177,8 +177,24 @@
           <ondown>701</ondown>
           <onclick>PlayerControl(Next)</onclick>
         </control>
-        <control type="togglebutton" id="602">
-          <posx>151</posx>
+        <control type="button" id="602">
+          <posx>99</posx>
+          <posy>0</posy>
+          <width>90</width>
+          <height>98</height>
+          <label>$LOCALIZE[31352]</label>
+          <font>-</font>
+          <texturefocus>VideoOSD/OSDStopFO.png</texturefocus>
+          <texturenofocus>VideoOSD/OSDStopNF.png</texturenofocus>
+          <onleft>601</onleft>
+          <onright>603</onright>
+          <onup>Close</onup>
+          <onup>XBMC.ActivateWindow(142)</onup>
+          <ondown>701</ondown>
+          <onclick>PlayerControl(Stop)</onclick>
+        </control>
+        <control type="togglebutton" id="603">
+          <posx>225</posx>
           <posy>0</posy>
           <width>90</width>
           <height>98</height>
@@ -190,28 +206,12 @@
           <usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
           <alttexturefocus>VideoOSD/OSDPlayFO.png</alttexturefocus>
           <alttexturenofocus>VideoOSD/OSDPlayNF.png</alttexturenofocus>
-          <onleft>601</onleft>
-          <onright>603</onright>
+          <onleft>602</onleft>
+          <onright>604</onright>
           <ondown>701</ondown>
           <onup>Close</onup>
           <onup>XBMC.ActivateWindow(142)</onup>
           <onclick>PlayerControl(Play)</onclick>
-        </control>
-        <control type="button" id="603">
-          <posx>225</posx>
-          <posy>0</posy>
-          <width>90</width>
-          <height>98</height>
-          <label>$LOCALIZE[31352]</label>
-          <font>-</font>
-          <texturefocus>VideoOSD/OSDStopFO.png</texturefocus>
-          <texturenofocus>VideoOSD/OSDStopNF.png</texturenofocus>
-          <onleft>602</onleft>
-          <onright>604</onright>
-          <onup>Close</onup>
-          <onup>XBMC.ActivateWindow(142)</onup>
-          <ondown>701</ondown>
-          <onclick>PlayerControl(Stop)</onclick>
         </control>
         <control type="button" id="604">
           <posx>305</posx>
@@ -285,8 +285,23 @@
           <ondown>Close</ondown>
           <onclick>ActivateWindow(OSDVideoSettings)</onclick>
         </control>
-        <control type="togglebutton" id="702">
-          <posx>153</posx>
+        <control type="button" id="702">
+          <posx>133</posx>
+          <posy>-6</posy>
+          <width>110</width>
+          <height>115</height>
+          <label>$LOCALIZE[292] &amp; $LOCALIZE[287]</label>
+          <font>-</font>
+          <texturefocus>VideoOSD/OSDAudioFO.png</texturefocus>
+          <texturenofocus>VideoOSD/OSDAudioNF.png</texturenofocus>
+          <onleft>701</onleft>
+          <onright>703</onright>
+          <onup>602</onup>
+          <ondown>Close</ondown>
+          <onclick>ActivateWindow(OSDAudioSettings)</onclick>
+        </control>
+        <control type="togglebutton" id="703">
+          <posx>222</posx>
           <posy>8</posy>
           <width>81</width>
           <height>90</height>
@@ -298,8 +313,8 @@
           <alttexturefocus>VideoOSD/OSDSubtitlesFO.png</alttexturefocus>
           <alttexturenofocus>VideoOSD/OSDSubtitlesNF.png</alttexturenofocus>
           <usealttexture>IsEmpty(Skin.String(SubtitleScript_Path))</usealttexture>
-          <onleft>701</onleft>
-          <onright>703</onright>
+          <onleft>702</onleft>
+          <onright>704</onright>
           <onup>602</onup>
           <ondown>Close</ondown>
           <onclick>Close</onclick>
@@ -307,21 +322,6 @@
           <altclick>Close</altclick>
           <altclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</altclick>
           <altclick>XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</altclick>
-        </control>
-        <control type="button" id="703">
-          <posx>214</posx>
-          <posy>-6</posy>
-          <width>110</width>
-          <height>115</height>
-          <label>$LOCALIZE[292] &amp; $LOCALIZE[287]</label>
-          <font>-</font>
-          <texturefocus>VideoOSD/OSDAudioFO.png</texturefocus>
-          <texturenofocus>VideoOSD/OSDAudioNF.png</texturenofocus>
-          <onleft>702</onleft>
-          <onright>704</onright>
-          <onup>602</onup>
-          <ondown>Close</ondown>
-          <onclick>ActivateWindow(OSDAudioSettings)</onclick>
         </control>
         <control type="button" id="704">
           <posx>296</posx>

@@ -105,8 +105,8 @@
     </font>
     <font>
       <name>InfoTitle</name>
-      <filename>UbuntuCaps.ttf</filename>
-      <size>36</size>
+      <filename>UbuntuCondensed.ttf</filename>
+      <size>37</size>
       <style>bold</style>
     </font>
     <font>
@@ -116,8 +116,8 @@
     </font>
     <font>
       <name>Details</name>
-      <filename>UbuntuCaps.ttf</filename>
-      <size>30</size>
+      <filename>UbuntuCondensed.ttf</filename>
+      <size>31</size>
     </font>
     <font>
       <name>font13</name>
@@ -135,12 +135,12 @@
     </font>
     <font>
       <name>InfoPath</name>
-      <filename>UbuntuCaps.ttf</filename>
-      <size>22</size>
+      <filename>UbuntuCondensed.ttf</filename>
+      <size>24</size>
     </font>
     <font>
       <name>size22</name>
-      <filename>UbuntuCaps.ttf</filename>
+      <filename>UbuntuCondensed.ttf</filename>
       <size>33</size>
     </font>
     <font>

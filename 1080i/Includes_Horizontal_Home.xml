@@ -147,7 +147,7 @@
             <posy>625</posy>
             <width>1920</width>
             <height>225</height>
-            <texture flipy="true">home/HomeMenuBack3.png</texture>
+            <texture flipy="true">home/HomeMenuBack4.png</texture>
           </control>
         </control>
         <control type="fixedlist" id="300" description="Main Bar">

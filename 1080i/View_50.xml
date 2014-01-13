@@ -1,10 +1,10 @@
 <includes>
   <include name="List_Layout">
-    <itemlayout condition="![Container.content(MusicVideos) | Container.Content(movies) | container.content(tvshows) | container.content(episodes)]" height="72" width="1210">
+    <itemlayout condition="![Container.content(MusicVideos) | Container.Content(movies) | container.content(tvshows) | container.content(episodes)]" height="70" width="1210">
       <control type="image">
         <posx>0</posx>
         <posy>0</posy>
-        <height>73</height>
+        <height>71</height>
         <width>1210</width>
         <texture flipy="true" border="3">list/ListNF.png</texture>
       </control>
@@ -12,7 +12,7 @@
         <posx>25</posx>
         <posy>0</posy>
         <width>900</width>
-        <height>72</height>
+        <height>70</height>
         <scroll>false</scroll>
         <label>$INFO[ListItem.Label]</label>
       </control>
@@ -20,7 +20,7 @@
         <posx>1120</posx>
         <posy>0</posy>
         <width>400</width>
-        <height>72</height>
+        <height>70</height>
         <scroll>false</scroll>
         <font>Label2</font>
         <textcolor>Grey</textcolor>
@@ -29,26 +29,26 @@
       </control>
       <include>ListWatchedOverlay</include>
     </itemlayout>
-    <focusedlayout condition="![Container.content(MusicVideos) | Container.Content(movies) | container.content(tvshows) | container.content(episodes)]" height="72" width="1210">
+    <focusedlayout condition="![Container.content(MusicVideos) | Container.Content(movies) | container.content(tvshows) | container.content(episodes)]" height="70" width="1210">
       <control type="image">
         <posx>0</posx>
         <posy>0</posy>
-        <height>73</height>
+        <height>71</height>
         <width>1210</width>
         <texture flipy="true" border="3">list/ListNF.png</texture>
       </control>
-      <control type="image">
+      <control type="image" description="highlight">
         <posx>0</posx>
         <posy>1</posy>
         <width>1210</width>
-        <height>69</height>
+        <height>70</height>
         <texture>list/ListFO.png</texture>
       </control>
       <control type="label">
         <posx>25</posx>
         <posy>0</posy>
         <width>900</width>
-        <height>72</height>
+        <height>70</height>
         <scroll>false</scroll>
         <label>$INFO[ListItem.Label]</label>
       </control>
@@ -56,7 +56,7 @@
         <posx>1120</posx>
         <posy>0</posy>
         <width>400</width>
-        <height>72</height>
+        <height>70</height>
         <scroll>false</scroll>
         <font>Label2</font>
         <textcolor>Grey2</textcolor>
@@ -65,93 +65,112 @@
       </control>
       <include>ListWatchedOverlay</include>
     </focusedlayout>
-    <itemlayout condition="Container.content(MusicVideos) | Container.Content(movies) | container.content(tvshows) | [Control.IsVisible(54) + container.content(episodes)]" height="72" width="1210">
+    <itemlayout condition="Container.content(MusicVideos) | Container.Content(movies) | container.content(tvshows) | [Control.IsVisible(54) + container.content(episodes)]" height="70" width="1210">
       <control type="image" description="BG">
         <posy>0</posy>
-        <posx>570</posx>
-        <width>640</width>
-        <height>73</height>
+        <posx>500</posx>
+        <width>710</width>
+        <height>71</height>
         <texture flipy="true" border="3">list/ListNF.png</texture>
       </control>
       <control type="label" description="Main Label">
-        <posx>589</posx>
-        <height>72</height>
-        <width>520</width>
+        <posx>571</posx>
+        <height>70</height>
+        <width>538</width>
         <scroll>false</scroll>
         <label>$INFO[ListItem.Label]</label>
       </control>
       <include>ListWatchedOverlay</include>
     </itemlayout>
-    <focusedlayout condition="Container.content(MusicVideos) | Container.Content(movies) | container.content(tvshows) | [Control.IsVisible(54) + container.content(episodes)]" height="72" width="1210">
+    <focusedlayout condition="Container.content(MusicVideos) | Container.Content(movies) | container.content(tvshows) | [Control.IsVisible(54) + container.content(episodes)]" height="70" width="1210">
       <control type="image" description="BG">
-        <posx>570</posx>
-        <width>640</width>
-        <height>73</height>
+        <posx>500</posx>
+        <width>710</width>
+        <height>71</height>
         <texture flipy="true" border="3">list/ListNF.png</texture>
       </control>
-      <control type="image" description="BG">
-        <posx>570</posx>
+      <control type="image"  description="highlight">
+        <posx>500</posx>
         <posy>1</posy>
-        <width>640</width>
-        <height>69</height>
+        <width>710</width>
+        <height>70</height>
         <texture>list/ListFO.png</texture>
       </control>
       <control type="label" description="Main Label">
-        <posx>589</posx>
-        <height>72</height>
-        <width>520</width>
+        <posx>571</posx>
+        <height>70</height>
+        <width>538</width>
+	<textcolor>White2</textcolor>
         <label>$INFO[ListItem.Label]</label>
       </control>
       <include>ListWatchedOverlay</include>
     </focusedlayout>
-    <itemlayout condition="Control.IsVisible(50) + Container.Content(episodes)" height="72" width="1210">
+    <itemlayout condition="Control.IsVisible(50) + Container.Content(episodes)" height="70" width="1210">
       <control type="image" description="BG">
         <posx>200</posx>
         <width>1010</width>
-        <height>73</height>
+        <height>71</height>
         <texture flipy="true" border="3">list/ListNF.png</texture>
       </control>
       <control type="label" description="Main Label">
-        <posx>219</posx>
-        <height>72</height>
+        <posx>271</posx>
+        <height>70</height>
         <width>920</width>
         <scroll>false</scroll>
         <label>$INFO[ListItem.Label]</label>
       </control>
-      <include>ListWatchedOverlay</include>
+      <control type="image" description="watched overlay">
+        <visible>!Container.Content(tvshows)</visible>
+        <posx>219</posx>
+        <posy>0</posy>
+        <width>30</width>
+        <height>72</height>
+        <texture>$VAR[Overlay]</texture>
+        <aspectratio aligny="center">keep</aspectratio>
+      </control>
     </itemlayout>
-    <focusedlayout condition="Control.IsVisible(50) + Container.Content(episodes)" height="72" width="1210">
+    <focusedlayout condition="Control.IsVisible(50) + Container.Content(episodes)" height="70" width="1210">
       <control type="image" description="BG">
         <posx>200</posx>
         <width>1010</width>
-        <height>73</height>
+        <height>71</height>
         <texture flipy="true" border="3">list/ListNF.png</texture>
       </control>
-      <control type="image" description="BG">
+      <control type="image"  description="highlight">
         <posx>200</posx>
         <posy>1</posy>
         <width>1010</width>
-        <height>69</height>
+        <height>70</height>
         <texture>list/ListFO.png</texture>
       </control>
       <control type="label" description="Main Label">
-        <posx>219</posx>
-        <height>72</height>
+        <posx>271</posx>
+        <height>70</height>
         <width>920</width>
         <label>$INFO[ListItem.Label]</label>
+	<textcolor>White2</textcolor>
       </control>
-      <include>ListWatchedOverlay</include>
+      <control type="image" description="watched overlay">
+        <visible>!Container.Content(tvshows)</visible>
+        <posx>219</posx>
+        <posy>0</posy>
+        <width>30</width>
+        <height>72</height>
+        <texture>$VAR[Overlay]</texture>
+        <aspectratio aligny="center">keep</aspectratio>
+      </control>
     </focusedlayout>
   </include>
   <include name="View_50">
     <control type="group">
       <visible>Control.IsVisible(50)</visible>
-      <control type="list" id="50">
+      <control type="fixedlist" id="50">
         <viewtype label="535">List</viewtype>
         <posx>710</posx>
         <posy>406</posy>
         <width>1210</width>
-        <height>648</height>
+        <height>748</height>
+	<focusposition>3</focusposition>
         <pagecontrol>60</pagecontrol>
         <onleft>9000</onleft>
         <onright>60</onright>
